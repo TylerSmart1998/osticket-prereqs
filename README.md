@@ -15,7 +15,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> 
 
 <h2>List of Prerequisites</h2>
 
@@ -34,9 +34,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-
-
-
 </p>
 <p>
 After downloading the latest verison of osTicket, launch IIS, Go to sites -> Default -> osTicket On the right, click “Browse *:80” Note that some extensions are not enabled. Go back to IIS, sites -> Default -> osTicket, Double-click PHP Manager, Click “Enable or disable an extension” Enable: php_imap.dll Enable: php_intl.dll Enable: php_opcache.dll Refresh the osTicket site in your browser, observe the changes
@@ -45,17 +42,26 @@ After downloading the latest verison of osTicket, launch IIS, Go to sites -> Def
 <br />
 
 <p>
-<img src="![image](https://github.com/user-attachments/assets/a98d67a0-17f5-48b9-adad-5c2c82ffac96)>
+
+
+![image](https://github.com/user-attachments/assets/b741d9cf-3465-4c04-996b-99d3fc23bc95)
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Rename: ost-config.php From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php To: C:\inetpub\wwwroot\osTicket\include\ost-config.php Assign Permissions: ost-config.php Disable inheritance -> Remove All New Permissions -> Everyone -> All
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+![image](https://github.com/user-attachments/assets/d1653bd6-4cfc-478e-a3ff-aa29d0c5ab01)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Continue Setting up osTicket in the browser (click Continue) From the “osTicket-Installation-Files” folder, install HeidiSQL. Open Heidi SQL Create a new session, Connect to the session Create a database Continue Setting up osTicket in the browser Click “Install Now!” Congratulations, hopefully it is installed with no errors!
 </p>
 <br />
