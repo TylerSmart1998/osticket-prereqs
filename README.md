@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-![image](https://github.com/user-attachments/assets/573ba09c-ea42-44e4-b1f2-b43f68d91df3)
+![osTicket Installer](https://raw.githubusercontent.com/<your-username>/<repo-name>/<branch>/image.png)
 </p>
 <p>
 After downloading the latest verison of osTicket, launch IIS, Go to sites -> Default -> osTicket On the right, click “Browse *:80” Note that some extensions are not enabled. Go back to IIS, sites -> Default -> osTicket, Double-click PHP Manager, Click “Enable or disable an extension” Enable: php_imap.dll Enable: php_intl.dll Enable: php_opcache.dll Refresh the osTicket site in your browser, observe the changes
